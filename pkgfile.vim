@@ -33,7 +33,7 @@ syn keyword PkgfileFunctions @\{ \}@
 
 " Special variables definition
 " FIXME: Does not work, right now.
-syn match   PkgfileSpecialVariables /^\(name\|version\|release\|license\|description\|longdesc\|url\|packager\|maintainer\|depends\|builddepends\|rundepends\|lastver\)=/
+"syn match   PkgfileSpecialVariables /^\(name\|version\|release\|license\|description\|longdesc\|url\|packager\|maintainer\|depends\|builddepends\|rundepends\|lastver\)=/
 
 " Inclusion
 syn match   PkgfileInclude /^includes=(.*)/
